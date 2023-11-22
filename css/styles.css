@@ -1,0 +1,16 @@
+/* @impor 순서 주의 */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,400&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "/css/component/status-bar.css";
+@import "/css/component/nav-bar.css";
+
+/* Screens */
+@import "/css/screens/login.css";
+
+/* font-family or background-color etc... */
+body {
+  font-family: "Open Sans", sans-serif;
+}
