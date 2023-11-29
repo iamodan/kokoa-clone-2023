@@ -1,0 +1,33 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-top: 40px;
+  opacity: 90%;
+}
+
+.screen-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.screen-header__icons > span {
+  margin-left: 20px;
+}
+
+#friends-display-link {
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-size: 16px;
+}
+
+#friends-display-link > i {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+#friends-display-link > span {
+  margin: 0 8px;
+}

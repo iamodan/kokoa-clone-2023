@@ -6,11 +6,15 @@
 /* Components */
 @import "/css/component/status-bar.css";
 @import "/css/component/nav-bar.css";
+@import "/css/component/screen-header.css";
 
 /* Screens */
 @import "/css/screens/login.css";
+@import "/css/screens/friends.css";
 
 /* font-family or background-color etc... */
 body {
+  color: #2e363e;
   font-family: "Open Sans", sans-serif;
+  /* height: 1000vh; */
 }
